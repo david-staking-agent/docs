@@ -1,8 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "David Staking Agent",
+  "name": "Starter Kit",
   "logo": {
-    "dark": ""
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -14,6 +15,22 @@
       "to": "#07C983"
     }
   },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:hi@mintlify.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
+  },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
   "anchors": [
     {
       "name": "Telegram",
@@ -21,42 +38,43 @@
       "url": "https://t.me/David_StakeBot"
     }
   ],
-  "navigation": [
-    {
-      "group": "Overview",
-      "pages": [
-        "whoIsDavid",
-        "coreFeatures"
-      ]
-    },
-    {
-      "group": "Getting Started",
-      "pages": [
-        "quickStartGuide"
-      ]
-    },
-    {
-      "group": "Protocol and Fees",
-      "pages": [
-        "supportedProtocols",
-        "feeStructure"
-      ]
-    },
-    {
-      "group": "Securities",
-      "pages": [
-        "smartAccountArchitecture",
-        "marketRisks"
-      ]
-    },
-    {
-      "group": "Roadmap",
-      "pages": [
-        "upcomingFeatures"
-      ]
-    }
-  ],
+"navigation": [
+   {
+     "group": "Overview",
+     "pages": [
+       "whoIsDavid",
+       "coreFeatures"
+     ]
+   },
+   {
+     "group": "Getting Started", 
+     "pages": [
+       "quickStartGuide"
+     ]
+   },
+   {
+     "group": "Features",
+     "pages": [
+       "supportedProtocols",
+       "feeStructure"
+     ]
+   },
+   {
+     "group": "Securities",
+     "pages": [
+       "smartAccountArchitecture",
+       "marketRisks"
+     ]
+   },
+   {
+     "group": "Roadmap",
+     "pages": [
+       "upcomingFeatures"
+     ]
+   }
+ ],
   "footerSocials": {
-    "x": "https://x.com/0xDavid8"
+    "x": "https://x.com/0xDavid8",
+    "github": "https://github.com/mintlify",
   }
 }
