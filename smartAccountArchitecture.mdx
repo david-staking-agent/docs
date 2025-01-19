@@ -1,3 +1,34 @@
 ---
 title: "Smart Account Architecture"
+description: "Understanding David's secure, self-custodial smart account structure and permission model."
 ---
+
+David utilizes a robust smart account architecture with a dual-permission model that ensures maximum security while enabling automated operations. The architecture distinguishes between two types of actors: Admins (you) and Session Keys (David), each with clearly defined permissions and limitations.
+
+Admin Rights (Your Control):
+
+* Full and unrestricted access to your account
+
+* Exclusive withdrawal rights
+
+* Ability to add or remove session keys
+
+* Complete control over native token balance
+
+* Can bypass ERC-4337 infrastructure if needed
+
+Session Keys (David's Access):
+
+* Limited permissions set by admin
+
+* Restricted to specific approved protocols
+
+* Time-bound access window
+
+* Must use ERC-4337 infrastructure
+
+* Configurable transaction value limits
+
+* No withdrawal rights
+
+This architecture ensures that while David can execute strategies on your behalf, you maintain full custody and control of your funds at all times.
