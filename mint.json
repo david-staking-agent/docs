@@ -59,15 +59,13 @@
    {
      "group": "Getting Started", 
      "pages": [
-       "quickStartGuide",
-       "setupAndAuth"
+       "quickStartGuide"
      ]
    },
    {
      "group": "Features",
      "pages": [
        "supportedProtocols",
-       "stakingGuide", 
        "feeStructure",
        "portfolioManagement"
      ]
