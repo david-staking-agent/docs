@@ -48,41 +48,44 @@
       "url": "https://mintlify.com/blog"
     }
   ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
+"navigation": [
+   {
+     "group": "Overview",
+     "pages": [
+       "whoIsDavid",
+       "coreFeatures"
+     ]
+   },
+   {
+     "group": "Getting Started", 
+     "pages": [
+       "quickStartGuide",
+       "setupAndAuth"
+     ]
+   },
+   {
+     "group": "Features",
+     "pages": [
+       "supportedProtocols",
+       "stakingGuide", 
+       "feeStructure",
+       "portfolioManagement"
+     ]
+   },
+   {
+     "group": "Securities",
+     "pages": [
+       "smartAccountArchitecture",
+       "marketRisks"
+     ]
+   },
+   {
+     "group": "Roadmap",
+     "pages": [
+       "upcomingFeatures"
+     ]
+   }
+ ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
