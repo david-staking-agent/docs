@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "David Staking Agent",
   "logo": {
-    "dark": "",
+    "dark": ""
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -14,50 +14,49 @@
       "to": "#07C983"
     }
   },
-
   "anchors": [
     {
       "name": "Telegram",
       "icon": "telegram",
       "url": "https://t.me/David_StakeBot"
-    },
+    }
   ],
-"navigation": [
-   {
-     "group": "Overview",
-     "pages": [
-       "whoIsDavid",
-       "coreFeatures"
-     ]
-   },
-   {
-     "group": "Getting Started", 
-     "pages": [
-       "quickStartGuide"
-     ]
-   },
-   {
-     "group": "Protocol and Fees",
-     "pages": [
-       "supportedProtocols",
-       "feeStructure",
-     ]
-   },
-   {
-     "group": "Securities",
-     "pages": [
-       "smartAccountArchitecture",
-       "marketRisks"
-     ]
-   },
-   {
-     "group": "Roadmap",
-     "pages": [
-       "upcomingFeatures"
-     ]
-   }
- ],
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "whoIsDavid",
+        "coreFeatures"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "quickStartGuide"
+      ]
+    },
+    {
+      "group": "Protocol and Fees",
+      "pages": [
+        "supportedProtocols",
+        "feeStructure"
+      ]
+    },
+    {
+      "group": "Securities",
+      "pages": [
+        "smartAccountArchitecture",
+        "marketRisks"
+      ]
+    },
+    {
+      "group": "Roadmap",
+      "pages": [
+        "upcomingFeatures"
+      ]
+    }
+  ],
   "footerSocials": {
-    "x": "https://x.com/0xDavid8",
+    "x": "https://x.com/0xDavid8"
   }
 }
