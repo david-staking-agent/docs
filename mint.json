@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "David Staking Agent",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -38,43 +38,43 @@
       "url": "https://t.me/David_StakeBot"
     }
   ],
-"navigation": [
-   {
-     "group": "Overview",
-     "pages": [
-       "whoIsDavid",
-       "coreFeatures"
-     ]
-   },
-   {
-     "group": "Getting Started", 
-     "pages": [
-       "quickStartGuide"
-     ]
-   },
-   {
-     "group": "Features",
-     "pages": [
-       "supportedProtocols",
-       "feeStructure"
-     ]
-   },
-   {
-     "group": "Securities",
-     "pages": [
-       "smartAccountArchitecture",
-       "marketRisks"
-     ]
-   },
-   {
-     "group": "Roadmap",
-     "pages": [
-       "upcomingFeatures"
-     ]
-   }
- ],
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "whoIsDavid",
+        "coreFeatures"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "quickStartGuide"
+      ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "supportedProtocols",
+        "feeStructure"
+      ]
+    },
+    {
+      "group": "Securities",
+      "pages": [
+        "smartAccountArchitecture",
+        "marketRisks"
+      ]
+    },
+    {
+      "group": "Roadmap",
+      "pages": [
+        "upcomingFeatures"
+      ]
+    }
+  ],
   "footerSocials": {
     "x": "https://x.com/0xDavid8",
-    "github": "https://github.com/mintlify",
+    "github": "https://github.com/mintlify"
   }
 }
