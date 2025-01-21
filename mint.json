@@ -14,7 +14,7 @@
     "name": "Start Staking",
     "url": "https://t.me/David_StakeBot"
   },
-  "anchors": [
+  "externalAnchors": [
     {
       "name": "Telegram",
       "icon": "telegram",
