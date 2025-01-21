@@ -1,6 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "David Agent",
+  "favicon": "https://www.0xdavid.live/david.png",
+  "logo": {
+    "dark": "https://www.0xdavid.live/david.png",
+    "light": "https://www.0xdavid.live/david.png"
+  },
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
