@@ -1,7 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "David Staking Agent",
-  "favicon": "/favicon.svg",
+  "name": "David Agent",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -11,15 +10,9 @@
       "to": "#07C983"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Start Staking",
+    "url": "https://t.me/David_StakeBot"
   },
   "anchors": [
     {
@@ -64,7 +57,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/0xDavid8",
-    "github": "https://github.com/mintlify"
+    "x": "https://x.com/0xDavid8"
   }
 }
